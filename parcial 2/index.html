@@ -1,84 +1,95 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> <!-- Define el idioma del documento como español -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jhefer Solano</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- El bloque <head> contiene metadatos e información de configuración para la página -->
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres para soportar caracteres especiales como tildes y ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsiva, adaptándose al tamaño de pantalla del dispositivo -->
+    <title>Jhefer Solano</title> <!-- Título de la pestaña del navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de hoja de estilo (CSS) externo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Establece una conexión anticipada a Google Fonts para cargar las fuentes más rápido -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> <!-- Carga la fuente Poppins desde Google Fonts -->
 </head>
-<body>
-    <header class="header">
-        <nav class="navbar">
+
+<body> <!-- Cuerpo del documento, donde va el contenido visible para el usuario -->
+    <header class="header"> <!-- Sección de encabezado, donde se encuentra la navegación principal -->
+        <nav class="navbar"> <!-- Contenedor de la barra de navegación -->
+            <!-- Enlace a la sección de llamada a la acción (cta) con el logo y nombre -->
             <a href="#cta" class="brand">
-                <img src="https://static.vecteezy.com/system/resources/previews/017/628/511/original/letter-j-crown-logo-for-beauty-fashion-star-elegant-luxury-sign-vector.jpg" alt="Logo de Jhefer Solano" class="logo">
-                <span class="brand-name">Jhefer Solano</span>
+                <img src="https://static.vecteezy.com/system/resources/previews/017/628/511/original/letter-j-crown-logo-for-beauty-fashion-star-elegant-luxury-sign-vector.jpg" alt="Logo de Jhefer Solano" class="logo"> <!-- Logo de la página -->
+                <span class="brand-name">Jhefer Solano</span> <!-- Nombre de la marca o persona -->
             </a>
+            <!-- Botón para abrir el menú en dispositivos móviles -->
             <button class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span class="bar"></span> <!-- Parte superior del botón (barra del menú) -->
+                <span class="bar"></span> <!-- Barra intermedia del botón -->
+                <span class="bar"></span> <!-- Parte inferior del botón -->
             </button>
+            <!-- Lista de navegación -->
             <ul class="nav-list">
-                <li><a href="#cta" class="nav-item">Inicio</a></li>
-                <li><a href="#about" class="nav-item">Sobre mí</a></li>
-                <li><a href="#passion" class="nav-item">Mi Pasión</a></li>
-                <li><a href="#projects" class="nav-item">Mis Proyectos</a></li>
-                <li><a href="#contact" class="nav-item">Contáctame</a></li>
+                <li><a href="#cta" class="nav-item">Inicio</a></li> <!-- Enlace a la sección de inicio -->
+                <li><a href="#about" class="nav-item">Sobre mí</a></li> <!-- Enlace a la sección "Sobre mí" -->
+                <li><a href="#passion" class="nav-item">Mi Pasión</a></li> <!-- Enlace a la sección "Mi Pasión" -->
+                <li><a href="#projects" class="nav-item">Mis Proyectos</a></li> <!-- Enlace a la sección "Mis Proyectos" -->
+                <li><a href="#contact" class="nav-item">Contáctame</a></li> <!-- Enlace a la sección "Contáctame" -->
             </ul>
         </nav>
     </header>
 
+    <!-- Sección principal de llamada a la acción -->
     <section id="cta" class="cta">
-        <h1>¡Bienvenido! Soy Jhefer Solano</h1>
-        <p>Estudiante de Ingeniería de Sistemas y futuro emprendedor.</p>
-        <p class="motivational-quote">"La tecnología es el futuro, y el futuro lo construimos hoy. ¡Estudia ingeniería y transforma el mundo conmigo!"</p>
-        <a href="#about" class="btn">Conóceme más</a>
+        <h1>¡Bienvenido! Soy Jhefer Solano</h1> <!-- Título de bienvenida -->
+        <p>Estudiante de Ingeniería de Sistemas y futuro emprendedor.</p> <!-- Descripción breve -->
+        <p class="motivational-quote">"La tecnología es el futuro, y el futuro lo construimos hoy. ¡Estudia ingeniería y transforma el mundo conmigo!"</p> <!-- Cita motivacional -->
+        <a href="#about" class="btn">Conóceme más</a> <!-- Enlace para conocer más sobre la persona (navega a la sección "Sobre mí") -->
     </section>
 
+    <!-- Sección "Sobre mí" -->
     <section id="about" class="about">
-        <h2>Sobre Mí</h2>
+        <h2>Sobre Mí</h2> <!-- Título de la sección -->
         <ul class="messages">
             <li class="message">
-                <p>📘 Soy estudiante de segundo semestre de Ingeniería de Sistemas.</p>
+                <p>📘 Soy estudiante de segundo semestre de Ingeniería de Sistemas.</p> <!-- Información sobre los estudios -->
             </li>
             <li class="message">
-                <p>🎮 Me apasionan los juegos de battle royale y la estrategia.</p>
+                <p>🎮 Me apasionan los juegos de battle royale y la estrategia.</p> <!-- Información sobre los intereses -->
             </li>
             <li class="message">
-                <p>💡 Me encanta aprender y mantenerme informado sobre todo.</p>
+                <p>💡 Me encanta aprender y mantenerme informado sobre todo.</p> <!-- Hábito de aprendizaje -->
             </li>
             <li class="message">
-                <p>🎯 Mi meta es construir una familia unida y emprender un negocio de ropa urbana.</p>
+                <p>🎯 Mi meta es construir una familia unida y emprender un negocio de ropa urbana.</p> <!-- Objetivo personal y profesional -->
             </li>
         </ul>
     </section>
 
+    <!-- Sección "Mi Pasión" -->
     <section id="passion" class="passion">
-        <h2>Mi Pasión</h2>
+        <h2>Mi Pasión</h2> <!-- Título de la sección -->
         <div class="passion-content">
-            <p>🌟 Siempre me ha fascinado explorar y aprender. Los juegos de estrategia y battle royale son mi pasión, ya que me retan a pensar de manera calculadora y creativa.</p>
-            <p>🎯 Mi filosofía es que cada paso, por pequeño que sea, construye un futuro sólido. Así veo mi vida: como un juego estratégico en el que cada decisión cuenta.</p>
-            <p>🚀 Mi objetivo es fusionar mi amor por la tecnología y los juegos con proyectos únicos que inspiren a otros y creen soluciones innovadoras.</p>
+            <p>🌟 Siempre me ha fascinado explorar y aprender. Los juegos de estrategia y battle royale son mi pasión...</p> <!-- Descripción de la pasión por la estrategia y los juegos -->
+            <p>🎯 Mi filosofía es que cada paso, por pequeño que sea, construye un futuro sólido. Así veo mi vida...</p> <!-- Filosofía personal -->
+            <p>🚀 Mi objetivo es fusionar mi amor por la tecnología y los juegos con proyectos únicos...</p> <!-- Objetivo de futuro -->
         </div>
     </section>
 
+    <!-- Sección "Mis Proyectos" -->
     <section id="projects" class="projects">
-        <h2 class="projects-title">Mis Proyectos</h2>
-        <p>En mis proyectos busco combinar creatividad, tecnología y solución de problemas. Aquí algunos de los proyectos que estoy desarrollando:</p>
+        <h2 class="projects-title">Mis Proyectos</h2> <!-- Título de la sección -->
+        <p>En mis proyectos busco combinar creatividad, tecnología y solución de problemas...</p> <!-- Introducción a los proyectos -->
         <div class="projects-grid">
+            <!-- Tarjetas de proyectos -->
             <article class="project-card">
-                <h4>Proyecto 1: Aplicación Web Interactiva</h4>
-                <p>Este proyecto consistió en el desarrollo de una aplicación web interactiva que permite a los usuarios gestionar tareas de manera sencilla y efectiva.</p>
+                <h4>Proyecto 1: Aplicación Web Interactiva</h4> <!-- Título del proyecto -->
+                <p>Este proyecto consistió en el desarrollo de una aplicación web interactiva...</p> <!-- Descripción del proyecto -->
                 <ul>
-                    <li><strong>Tecnologías utilizadas:</strong> HTML, CSS, JavaScript, Node.js</li>
-                    <li><strong>Objetivo:</strong> Facilitar la organización personal mediante una interfaz amigable.</li>
+                    <li><strong>Tecnologías utilizadas:</strong> HTML, CSS, JavaScript, Node.js</li> <!-- Tecnologías utilizadas en el proyecto -->
+                    <li><strong>Objetivo:</strong> Facilitar la organización personal mediante una interfaz amigable.</li> <!-- Objetivo del proyecto -->
                 </ul>
             </article>
             <article class="project-card">
                 <h4>Proyecto 2: Sistema de Gestión de Tareas</h4>
-                <p>En este proyecto, diseñé un sistema de gestión de tareas para pequeñas empresas utilizando Java para el backend y MySQL para la base de datos.</p>
+                <p>En este proyecto, diseñé un sistema de gestión de tareas...</p>
                 <ul>
                     <li><strong>Tecnologías utilizadas:</strong> Java, MySQL, Spring Boot</li>
                     <li><strong>Objetivo:</strong> Optimizar la administración de proyectos y tareas en pequeñas empresas.</li>
@@ -86,7 +97,7 @@
             </article>
             <article class="project-card">
                 <h4>Proyecto 3: Videojuego Educativo</h4>
-                <p>El concepto de este proyecto es un videojuego educativo que mezcla entretenimiento y aprendizaje, orientado a enseñar matemáticas básicas a niños.</p>
+                <p>El concepto de este proyecto es un videojuego educativo...</p>
                 <ul>
                     <li><strong>Tecnologías utilizadas:</strong> Unity, C#</li>
                     <li><strong>Objetivo:</strong> Facilitar el aprendizaje de manera divertida y dinámica.</li>
@@ -95,36 +106,42 @@
         </div>
     </section>
 
+    <!-- Sección de contacto -->
     <section id="contact" class="contact">
-        <h2>Contáctame</h2>
-        <form action="#" method="POST">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-            <label for="email">Correo</label>
-            <input type="email" id="email" name="email" placeholder="Tu correo" required>
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tu mensaje"></textarea>
-            <button type="submit" class="btn">Enviar</button>
+        <h2>Contáctame</h2> <!-- Título de la sección -->
+        <form action="#" method="POST"> <!-- Formulario de contacto -->
+            <label for="name">Nombre</label> <!-- Etiqueta para el campo de nombre -->
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required> <!-- Campo de texto para el nombre del usuario -->
+            <label for="email">Correo</label> <!-- Etiqueta para el campo de correo -->
+            <input type="email" id="email" name="email" placeholder="Tu correo" required> <!-- Campo de texto para el correo -->
+            <label for="message">Mensaje</label> <!-- Etiqueta para el campo de mensaje -->
+            <textarea id="message" name="message" rows="5" placeholder="Tu mensaje"></textarea> <!-- Área de texto para el mensaje -->
+            <button type="submit" class="btn">Enviar</button> <!-- Botón para enviar el formulario -->
         </form>
         <div class="social">
+            <!-- Enlaces a redes sociales -->
             <a href="https://wa.me/573106098297" class="social-icon">WhatsApp</a>
             <a href="https://www.tiktok.com/@jhefer.s" class="social-icon">TikTok</a>
             <a href="https://www.facebook.com/profile.php?id=100048923958264&mibextid=LQQJ4ds" class="social-icon">Facebook</a>
         </div>
     </section>
 
+    <!-- Pie de página -->
     <footer class="footer">
-        <p>&copy; 2024 Jhefer Solano - Todos los derechos reservados.</p>
+        <p>&copy; 2024 Jhefer Solano - Todos los derechos reservados.</p> <!-- Texto de copyright -->
     </footer>
 
+    <!-- Script para alternar el menú en dispositivos móviles -->
     <script>
-        const mobileMenu = document.getElementById("mobile-menu");
-        const navList = document.querySelector(".nav-list");
-
+        const mobileMenu = document.getElementById("mobile-menu"); //Obtiene el botón del menú móvil 
+        const navList = document.querySelector(".nav-list"); //Obtiene la lista de navegación
+        
+        // Agrega un evento para alternar la clase 'active' al hacer clic en el botón del menú
         mobileMenu.addEventListener("click", () => {
-            navList.classList.toggle("active");
+            navList.classList.toggle("active"); //Muestra u oculta el menú en dispositivos móviles
         });
     </script>
 </body>
+
 </html>
 
